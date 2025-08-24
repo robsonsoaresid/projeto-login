@@ -37,9 +37,13 @@ section#login {
    width: 250px;
    height: 450px;
    border-radius: 20px;
+
+   transition: width .3s, .3s height;
+   transition-timing-function: ease;
 }
 
 section#login > div#imagem {
+    display: block;
     background: #5f2c82 url(../imagens/metal.jpg) no-repeat;
     height: 200px;
     background-position: left bottom;
