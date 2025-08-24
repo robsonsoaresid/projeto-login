@@ -4,4 +4,51 @@
 Paletade cores
 Verde: #49a09d
 Lilás: #5f2c82
-*/ 
+*/
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing:border-box; 
+}
+
+body, html {
+    background-color: #5f2c82;
+    height: 100vh;
+    width: 100vw;
+}
+
+main {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+
+section#login {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.712);
+
+    background-color: white;
+   width: 250px;
+   height: 450px;
+   border-radius: 20px;
+}
+
+section#login > div#imagem {
+    background: #5f2c82 url(../imagens/metal.jpg) no-repeat;
+    height: 200px;
+    background-position: left bottom;
+    background-size: cover;
+
+}
+
+section#login > div#formulario {
+    display: block;
+    padding: 10px;
+}
+
