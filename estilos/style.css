@@ -72,7 +72,7 @@ form > div.campo {
     height: 40px;
     border-radius: 8px;
     margin: 5px 0px;
-    border: 2px solid #5f2c82;
+    border: 0px solid #49a09d;
 }
 div.campo > label {
     display: none;
@@ -81,12 +81,15 @@ div.campo > label {
 div.campo > span {
     color: white;
     padding: 5px;
+    background-color: #49a09d;
+    height: 100%;
+    border-radius: 8px 0px 0px 8px;
+    
 }
 
 div.campo > span.icon {
     font-size: 2em;
-    width: 40px;
-    
+    width: 40px; 
 }
 
 div.campo > input {
@@ -94,7 +97,7 @@ div.campo > input {
     font-size: 1em;
     width: calc(100% - 44px) ;
     height: 100%;
-    transform: translateY(-5px);
+    transform: translateY(-4px);
     border: 0px;
     border-radius: 8px;
     color: white;
